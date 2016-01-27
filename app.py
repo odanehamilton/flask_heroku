@@ -24,11 +24,21 @@ def home():
     return render_template('home.html')
 
 
+
 @app.route('/about/')
 def about():
     """Render the website's about page."""
     return render_template('about.html')
 
+@app.route('/contact/')
+def contact():
+    """Render the website's contact page."""
+    return render_template('contact.html')
+
+@app.route('/services/')
+def services():
+    """Render the website's service page."""
+    return render_template('services.html')
 
 ###
 # The functions below should be applicable to all Flask apps.
