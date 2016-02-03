@@ -1,0 +1,71 @@
+/* CSS Document */
+
+
+/* Global */
+
+html { 	}
+body { background-color:#191919; 	}
+/* Headings */
+h1, h2, h3, h4, h5, h6	{font-weight:bold; 	}
+h1		{ font-size:24px; color:rgb(108,17,48); padding-bottom:15px; border-bottom:solid 1px #CCC; margin-bottom:15px;font-family:trajan pro;	}
+h2		{ font-size:20px;	}
+h3		{ font-size:16px;	}
+h4		{ font-size:14px;	}
+h5		{ font-size:14px;	}
+h6		{	}
+
+/*Text Elements*/
+p 			{ color:#000; font-size:12px; line-height:150%; margin-bottom:15px;	}
+
+/*Images*/
+/*Containers*/
+#outer						{ width:960px; margin:0 auto; background-color:#FFF;border:1px solid; box-shadow:10px 10px 5px #888888;	}
+#wrapper					{ width:900px; margin:0 auto; background-color:#FFF;}
+
+#logo						{ margin:30px 0; float:left;	}
+
+
+
+#company-name			{ float:right; }
+#company-name		{ margin-top:40px;	}
+#company-name p		{
+	font-family:Tempus Sans ITC;color:#7B3A2F; font-size:28px;
+}
+
+#topnav						{ clear:both;}
+#topnav ul					{ border-bottom:1px solid #5A0000;
+								margin:20px 0; padding:10px 0;font-family:Trajan Pro;float:right; font-size:14px;}
+#topnav ul li				{ display:inline;clear:both;}
+#topnav ul li a 			{ padding:15px 15px;} 
+#topnav	ul li a:active		{ color:#000;}
+#topnav	ul li a:hover		{ color:#9B210F; text-decoration:none;}
+#topnav	 a:link		{ color:#000; text-decoration:none;	}
+#topnav	 a:focus		{ color:#0F0;	}
+#topnav	 a:visited		{ color:#000;	}
+							
+#bottomnav						{ clear:both;}
+#bottomnav ul					{ border-top:1px solid #CCC; border-bottom:1px dashed #CCC;text-align:center;
+								margin:10px 0; padding:10px 0;font-family:corbel; font-size:10px; color:#FFF;}
+#bottomnav ul li				{ display:inline;clear:both;}
+#bottomnav ul li a 			{ padding:15px 15px;	} 
+#bottomnav	ul li a:active		{ color:#CCC;}
+#bottomnav	ul li a:hover		{ color:#6A0000; text-decoration:none;	}
+#bottomnav	 a:link		{ color:#E5E5E5; text-decoration:none;	}
+#bottomnav	 a:focus		{ color:#CCC;	}
+#bottomnav	 a:visited		{ color:#000;	}	
+
+#content-fullwidth			{width:100%;}
+#content-fullwidth h1	{clear:both; color:rgb(71,7,32);}
+#content-fullwidth p	{height:400px;width:400px;float:left;font-family:; font-size:15px; padding-top:10px;}
+#content-fullwidth p:first-letter { font-family:Charlemagne Std; font-size: 65px; color: #761616;}
+
+#footer		{ clear:both; margin:0px 0; border-top:1px rgb(198,177,176) solid; padding-bottom:0px;}
+#footer	 a:link		{text-decoration:none;	}
+#picture	{ float:right;width:475px; height:400px;}
+	
+
+/* Miscellaneous */
+
+.phrase	{ text-align:center;font-family:Tempus Sans ITC;}
+.date	{ font-weight:bold; color:#D70000; margin-bottom:3px;	}
+.footer-text	{ font-size:12px; text-align:center; color:rgb(118,129,136); font-family:Lucida Handwriting;	}
